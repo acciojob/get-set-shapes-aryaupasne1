@@ -1,59 +1,17 @@
-// //complete this code
-// class Rectangle {
-// 	constructor(width, height) {
-//         this._width = width;
-//         this._height = height;
-//     }
-
-//     // Getter for width
-//     get width() {
-//         return this._width;
-//     }
-
-//     // Getter for height
-//     get height() {
-//         return this._height;
-//     }
-
-//     // Calculate area
-//     getArea() {
-//         return this.width * this.height;
-//     }
-// }
-
-// class Square extends Animal {
-// 	constructor(side) {
-//         // Parent Rectangle constructor
-//         super(side, side);
-//     }
-
-//     // Calculate perimeter
-//     getPerimeter() {
-//         return this.width * 4;
-//     }
-// }
-
-// // Do not change the code below this line
-// window.Rectangle = Rectangle;
-// window.Square = Square;
-
 class Rectangle {
     constructor(width, height) {
         this._width = width;
         this._height = height;
     }
 
-    // Getter for width
     get width() {
         return this._width;
     }
 
-    // Getter for height
     get height() {
         return this._height;
     }
 
-    // Calculate area
     getArea() {
         return this.width * this.height;
     }
@@ -61,11 +19,9 @@ class Rectangle {
 
 class Square extends Rectangle {
     constructor(side) {
-        // Parent Rectangle constructor
         super(side, side);
     }
 
-    // Calculate perimeter
     getPerimeter() {
         return this.width * 4;
     }
@@ -75,29 +31,3 @@ class Square extends Rectangle {
 
 window.Rectangle = Rectangle;
 window.Square = Square;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
